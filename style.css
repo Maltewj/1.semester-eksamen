@@ -1,4 +1,32 @@
-header{
+
+html, body {
+    box-sizing: border-box;
+    background-color: #314C64;
+    font-family: Acumin Pro, Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding: 4px;
+    margin: 0px;
+  }
+
+  body{
+    max-width: 550px;
+    margin: auto;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "h h h"
+        "c c c"
+        "f f f";
+}
+
+.header {
+    grid-area: h;
     height: 50px;
     width: 1fr;
     padding: 4rem;
@@ -6,6 +34,17 @@ header{
     position: relative;
 }
 
+.main {
+    grid-area: c;
+    background-color: red;
+}
+
+.footer {
+    grid-area: f;
+    background-color: red;
+}
+
+/* Navbar start */
 nav{
     display: flex;
     align-items: center;
@@ -14,6 +53,8 @@ nav{
 
 .logo{
     width: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-links{
@@ -46,3 +87,4 @@ nav{
 .nav-links li a:hover::after{
     width: 100%;
 }
+/* Navbar slut */
