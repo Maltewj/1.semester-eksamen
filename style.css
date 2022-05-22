@@ -59,6 +59,10 @@ h3 {
     color: var(--clr-neutral-900);
 }
 
+.forsidenavn {
+    margin: auto auto 20px auto;
+}
+
 .introtekst {
     margin: auto auto 20px auto;
     background-color: var(--clr-primary-400);
@@ -73,13 +77,14 @@ h3 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 
 }
 
 .kompetencebokse > * {
-    margin-top: 50px;
-    width: 201px;
-    height: 208px;
+    margin-top: 20px;
+    width: 190px;
+    height: 180px;
     background-color: var(--clr-primary-400);
     border: 6px solid var(--clr-neutral-300);
     border-radius: 20px;
@@ -96,6 +101,10 @@ section {
     border: 6px solid var(--clr-neutral-300);
     border-radius: 20px;
     margin: auto;
+}
+
+.adobeicons {
+    width: 125px;
 }
 
 .text-center {
@@ -127,6 +136,51 @@ section {
 .portrait {
     width: 20rem;
 }
+
+footer {
+    background-color: var(--clr-primary-400);
+}
+
+/* Footer grid start */
+.grid-container-footer {
+    height: 185px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        ". . . . . . . ."
+        ". m m m t t t ."
+        ". l l l l l l ."
+        ". . . . . . . ."
+        ". c c c c c c .";
+}
+
+.mail {
+    grid-area: m;
+    color: var(--clr-neutral-900);
+    margin: auto;
+}
+
+.telefon {
+    grid-area: t;
+    color: var(--clr-neutral-900);
+    margin: auto;
+}
+
+.linkedin {
+    grid-area: l;
+    color: var(--clr-neutral-900);
+    margin: auto;
+}
+
+.copyright {
+    grid-area: c;
+    color: var(--clr-neutral-900);
+    font-weight: 700;
+    margin: auto;
+}
+/* Footer grid slut */
 
 /* Navbar start */
 nav {
