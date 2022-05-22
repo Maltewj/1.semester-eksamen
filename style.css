@@ -1,3 +1,75 @@
+:root {
+    --clr-primary-200: #314C64;
+    --clr-primary-400: #EEEEEE;
+
+    --clr-neutral-100: #EEEEEE;
+    --clr-neutral-900: #252525;
+
+    --ff-primary: 'Acumin Pro', sans-serif;
+}
+
+html {
+    margin: 0px;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+p {
+    margin: 0;
+    color: #EEEEEE;
+}
+
+h1 {
+    font-family: var(--ff-primary);
+    font-weight: 800;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+h2 {
+    font-family: var(--ff-primary);
+    font-weight: 800;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+h3 {
+    font-family: var(--ff-primary);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+.bg-light {
+    background-color: var(--clr-primary-400);
+}
+
+.bg-blue {
+    background-color: var(--clr-primary-200);
+}
+
+.portrait {
+    width: 20rem;
+}
+
 /* Navbar start */
 nav{
     display: flex;
