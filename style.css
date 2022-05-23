@@ -10,17 +10,10 @@
     --ff-primary: 'Acumin Pro', sans-serif;
 }
 
-.font-white {
-    color: var(--clr-neutral-100);
-}
-
-.font-black {
-    color: var(--clr-neutral-900);
-}
-
 html, body {
     margin: 0px;
     width: 100%;
+    height: 100%;
 }
 
 body {
@@ -32,7 +25,39 @@ body {
 
 .streg {
     background-color: var(--clr-neutral-500);
-    height: 5px;
+    height: 8px;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+/* Utility class start */
+.bg-light {
+    background-color: var(--clr-primary-400);
+}
+
+.bg-blue {
+    background-color: var(--clr-primary-200);
+}
+/* Utility class slut */
+
+/* Fonts start */
+.font-white {
+    color: var(--clr-neutral-100);
+}
+
+.font-black {
+    color: var(--clr-neutral-900);
 }
 
 p {
@@ -40,27 +65,30 @@ p {
     color: var(--clr-neutral-100);
 }
 
-h1 {
+h1, h2 {
     font-family: var(--ff-primary);
     font-weight: 800;
     font-size: 30px;
     color: var(--clr-neutral-100);
 }
-h2 {
+h3 {
     font-family: var(--ff-primary);
     font-weight: 800;
     font-size: 25px;
     color: var(--clr-neutral-100);
 }
-h3 {
+h4 {
     font-family: var(--ff-primary);
     font-weight: 700;
     font-size: 18px;
     color: var(--clr-neutral-900);
 }
+/* Fonts slut */
 
+/* Forside indhold start*/
 .forsidenavn {
     margin: auto auto 20px auto;
+    text-align: center;
 }
 
 .introtekst {
@@ -68,6 +96,7 @@ h3 {
     background-color: var(--clr-primary-400);
     padding: 15px;
     max-width: 400px;
+    height: 270px;
     border: 6px solid var(--clr-neutral-300);
     border-radius: 20px;
 }
@@ -98,21 +127,8 @@ h3 {
     padding: 10px;
 }
 
-section {
-    padding: 3rem 0;
-}
-
 .adobeicons {
-    width: 125px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.container {
-    margin-inline: auto;
-    width: min(90%, 70.5rem);
+    width: 110px;
 }
 
 .split1 {
@@ -133,17 +149,33 @@ section {
     flex-basis: 100%;
 }
 
-.bg-light {
-    background-color: var(--clr-primary-400);
-}
-
-.bg-blue {
-    background-color: var(--clr-primary-200);
-}
-
 .portrait {
     width: 20rem;
 }
+
+/* Forside indhold slut*/
+
+/* Portfolio indhold start*/
+.portfolioeksempler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+.portfolioeksempler > * {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 330px;
+    height: 300px;
+    background-color: var(--clr-primary-400);
+    border: 6px solid var(--clr-neutral-300);
+    border-radius: 20px;
+    padding: 10px;
+}
+/* Portfolio indhold slut*/
 
 footer {
     background-color: var(--clr-primary-400);
@@ -239,6 +271,10 @@ nav {
 
 @media screen and (min-width: 720px) {
     .kompetencebokse {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .portfolioeksempler {
         flex-direction: row;
         flex-wrap: wrap;
     }
