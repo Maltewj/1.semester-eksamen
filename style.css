@@ -246,48 +246,78 @@ h4 {
 }
 /* Kontaktside slut*/
 
-footer {
-    background-color: var(--clr-primary-400);
-}
-
 /* Portfolio eksempler start */
-#skatertekst {
-    margin-bottom: 20px;
-}
-
-#reklametekst {
+#portfolioeksempeltekst {
     margin-bottom: 20px;
 }
 
 .fotoworkshopbilleder {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.cssanimationbilleder {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
 }
 
 .portrait-workshop {
-    height: 250px;
+    width: 165px;
+    max-width: 100%;
     border-radius: 15px;
     border: 5px solid var(--clr-neutral-300);
+    margin-bottom: 10px;
 }
 
 .mads-workshop {
-    height: 250px;
+    width: 370px;
+    max-width: 100%;
     border-radius: 15px;
     border: 5px solid var(--clr-neutral-300);
+    margin-bottom: 10px;
 }
 
 .bordtennis-workshop {
-    height: 250px;
+    width: 330px;
+    max-width: 100%;
+    border-radius: 15px;
+    border: 5px solid var(--clr-neutral-300);
+    margin-bottom: 10px;
+}
+
+.malte-workshop {
+    width: 180px;
+    max-width: 100%;
     border-radius: 15px;
     border: 5px solid var(--clr-neutral-300);
 }
 
-.malte-workshop {
-    height: 250px;
+.illustration2 {
+    margin-top: 20px;
+    width: 500px;
+    max-width: 100%;
     border-radius: 15px;
+    border: 5px solid var(--clr-neutral-300);
+}
+
+.cssanimationlogo {
+    width: 200px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 5px solid var(--clr-neutral-300);
+}
+
+.cssanimationsprite {
+    width: 1000px;
+    max-width: 100%;
+    border-radius: 10px;
     border: 5px solid var(--clr-neutral-300);
 }
 /* Portfolio eksempler slut */
@@ -298,12 +328,19 @@ footer {
     padding: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-        ". m m m m m m ."
-        ". t t t t t t ."
-        ". l l l l l l ."
-        ". c c c c c c .";
+        "k k k k k k k k"
+        "m m m m m m m m"
+        "t t t t t t t t"
+        "l l l l l l l l"
+        "c c c c c c c c";
+}
+
+.kontakttekst {
+    grid-area: k;
+    color: var(--clr-neutral-900);
+    margin: auto;
 }
 
 .mail {
@@ -329,7 +366,11 @@ footer {
     color: var(--clr-neutral-900);
     font-weight: 700;
     margin: auto;
-    padding: 30px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+footer {
+    background-color: var(--clr-primary-400);
 }
 /* Footer-grid slut */
 
@@ -421,5 +462,9 @@ nav {
     .kontaktoplysninger {
         text-align: left;
         margin-left: 100px;
+    }
+    .fotoworkshopbilleder {
+        display: flex;
+        flex-direction: row;
     }
 }
