@@ -7,7 +7,7 @@
     --clr-neutral-500: #6BFFD3;
     --clr-neutral-900: #252525;
 
-    --ff-primary: 'Acumin Pro', sans-serif;
+    --ff-primary: 'acumin-pro', sans-serif;
 }
 
 html, body {
@@ -85,6 +85,26 @@ h4 {
 }
 /* Fonts slut */
 
+/* Splits start*/
+.split1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.split1 > * {
+    flex-basis: 100%;
+}
+
+.split2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.split2 > * {
+    flex-basis: 100%;
+}
+/* Splits slut */
+
 /* Forside indhold start*/
 .forsidenavn {
     margin: auto auto 20px auto;
@@ -131,24 +151,6 @@ h4 {
     width: 110px;
 }
 
-.split1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.split1 > * {
-    flex-basis: 100%;
-}
-
-.split2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.split2 > * {
-    flex-basis: 100%;
-}
-
 .portrait {
     width: 20rem;
 }
@@ -176,6 +178,62 @@ h4 {
     padding: 10px;
 }
 /* Portfolio indhold slut*/
+
+/* Kontaktformular start*/
+.name {
+    font-family: var(--ff-primary);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    border: 3px solid var(--clr-neutral-300);
+    margin-top: 30px;
+    background-color: var(--clr-primary-400);
+}
+
+.email {
+    font-family: var(--ff-primary);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    border: 3px solid var(--clr-neutral-300);
+    margin-top: 5px;
+    background-color: var(--clr-primary-400);
+}
+
+.message {
+    font-family: var(--ff-primary);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    border: 3px solid var(--clr-neutral-300);
+    margin-top: 5px;
+    background-color: var(--clr-primary-400);
+}
+
+.submit {
+    font-family: var(--ff-primary);
+    display: inline;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--clr-primary-200);
+    border-radius: 15px;
+    border: 3px solid var(--clr-neutral-300);
+    margin-top: 10px;
+    background-color: var(--clr-neutral-300);
+    height: 45px;
+    width: 200px;
+}
+
+.submit:hover {
+    border: 3px solid var(--clr-neutral-900);
+}
+/* Kontaktformular slut*/
 
 footer {
     background-color: var(--clr-primary-400);
