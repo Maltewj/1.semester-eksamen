@@ -106,7 +106,7 @@ h4 {
 /* Splits slut */
 
 /* Forside indhold start*/
-.forsidenavn {
+.titel {
     margin: auto auto 20px auto;
     text-align: center;
 }
@@ -177,6 +177,11 @@ h4 {
     border-radius: 20px;
     padding: 10px;
 }
+
+.portfoliobilleder {
+    height: 270px;
+    border-radius: 20px;
+}
 /* Portfolio indhold slut*/
 
 /* Kontaktformular start*/
@@ -238,6 +243,16 @@ h4 {
 footer {
     background-color: var(--clr-primary-400);
 }
+
+/* Portfolio eksempler start */
+#skatertekst {
+    margin-bottom: 20px;
+}
+
+#reklametekst {
+    margin-bottom: 20px;
+}
+/* Portfolio eksempler slut */
 
 /* Footer-grid start */
 .grid-container-footer {
