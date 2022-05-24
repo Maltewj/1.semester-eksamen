@@ -185,7 +185,7 @@ h4 {
 }
 /* Portfolio indhold slut*/
 
-/* Kontaktformular start*/
+/* Kontaktside start*/
 .name {
     font-family: var(--ff-primary);
     font-size: 18px;
@@ -239,7 +239,12 @@ h4 {
 .submit:hover {
     border: 3px solid var(--clr-neutral-900);
 }
-/* Kontaktformular slut*/
+
+.mailicon {
+    height: 20px;
+    margin-right: 10px;
+}
+/* Kontaktside slut*/
 
 footer {
     background-color: var(--clr-primary-400);
@@ -252,6 +257,38 @@ footer {
 
 #reklametekst {
     margin-bottom: 20px;
+}
+
+.fotoworkshopbilleder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.portrait-workshop {
+    height: 250px;
+    border-radius: 15px;
+    border: 5px solid var(--clr-neutral-300);
+}
+
+.mads-workshop {
+    height: 250px;
+    border-radius: 15px;
+    border: 5px solid var(--clr-neutral-300);
+}
+
+.bordtennis-workshop {
+    height: 250px;
+    border-radius: 15px;
+    border: 5px solid var(--clr-neutral-300);
+}
+
+.malte-workshop {
+    height: 250px;
+    border-radius: 15px;
+    border: 5px solid var(--clr-neutral-300);
 }
 /* Portfolio eksempler slut */
 
@@ -322,6 +359,7 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
+    font-weight: 700;
     color: #252525;
     padding: 5px 0;
     position: relative;
@@ -368,5 +406,20 @@ nav {
     }
     .forsidenavn {
         text-align: center
+    }
+    .kontakt-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .kontaktoplysninger {
+        margin-top: 50px;
+    }
+    .kontaktformular {
+        width: 450px;
+    }
+    .kontaktoplysninger {
+        text-align: left;
+        margin-left: 100px;
     }
 }
