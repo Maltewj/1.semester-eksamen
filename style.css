@@ -157,7 +157,7 @@ h4 {
 
 /* Forside indhold slut*/
 
-/* Portfolio indhold start*/
+/* Portfolio side indhold start*/
 .portfolioeksempler {
     display: flex;
     flex-direction: column;
@@ -178,12 +178,17 @@ h4 {
     padding: 10px;
 }
 
+.portfoliohover:hover {
+    border: var(--clr-primary-200) solid 5px;
+    border-radius: 30px;
+}
+
 .portfoliobilleder {
     margin-top: 5px;
     height: 270px;
     border-radius: 20px;
 }
-/* Portfolio indhold slut*/
+/* Portfolio side indhold slut*/
 
 /* Kontaktside start*/
 .name {
@@ -331,8 +336,8 @@ h4 {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
         "k k k k k k k k"
-        "m m m m m m m m"
         "t t t t t t t t"
+        "m m m m m m m m"
         "l l l l l l l l"
         "c c c c c c c c";
 }
@@ -466,5 +471,11 @@ nav {
     .fotoworkshopbilleder {
         display: flex;
         flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1238px) {
+    .portfolioeksempler {
+        justify-content: center;
     }
 }
