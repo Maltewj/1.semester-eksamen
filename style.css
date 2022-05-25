@@ -63,6 +63,7 @@ section {
 p {
     margin: 0;
     color: var(--clr-neutral-100);
+    font-size: 15px;
 }
 
 h1, h2 {
@@ -238,7 +239,7 @@ h4 {
     margin-top: 10px;
     background-color: var(--clr-neutral-300);
     height: 45px;
-    width: 200px;
+    width: 100px;
 }
 
 .submit:hover {
@@ -408,6 +409,7 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
+    font-size: 18px;
     font-weight: 700;
     color: #252525;
     padding: 5px 0;
