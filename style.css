@@ -4,7 +4,6 @@
 
     --clr-neutral-100: #EEEEEE;
     --clr-neutral-300: #35CADB;
-    --clr-neutral-500: #6BFFD3;
     --clr-neutral-900: #252525;
 
     --ff-primary: 'acumin-pro', sans-serif;
@@ -24,7 +23,7 @@ body {
 }
 
 .streg {
-    background-color: var(--clr-neutral-500);
+    background-color: var(--clr-neutral-300);
     height: 8px;
 }
 
