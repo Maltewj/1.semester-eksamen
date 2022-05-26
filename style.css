@@ -118,14 +118,14 @@ h4 {
     padding: 15px;
     max-width: 400px;
     height: 270px;
-    border: 6px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
     border-radius: 20px;
 }
 
 .portrait {
     display: block;
     max-width: 100%;
-    border: 6px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
     border-radius: 20px;
     margin: auto;
 }
@@ -143,7 +143,7 @@ h4 {
     width: 190px;
     height: 180px;
     background-color: var(--clr-primary-400);
-    border: 6px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
     border-radius: 20px;
     padding: 10px;
 }
@@ -174,7 +174,7 @@ h4 {
     width: 330px;
     height: 300px;
     background-color: var(--clr-primary-400);
-    border: 6px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
     border-radius: 20px;
     padding: 10px;
 }
@@ -199,6 +199,7 @@ h4 {
     text-align: left;
     width: 100%;
     max-width: 600px;
+    border-radius: 5px;
     border: 3px solid var(--clr-neutral-300);
     margin-top: 30px;
     background-color: var(--clr-primary-400);
@@ -211,6 +212,7 @@ h4 {
     text-align: left;
     width: 100%;
     max-width: 600px;
+    border-radius: 5px;
     border: 3px solid var(--clr-neutral-300);
     margin-top: 5px;
     background-color: var(--clr-primary-400);
@@ -223,6 +225,7 @@ h4 {
     text-align: left;
     width: 100%;
     max-width: 600px;
+    border-radius: 5px;
     border: 3px solid var(--clr-neutral-300);
     margin-top: 5px;
     background-color: var(--clr-primary-400);
@@ -234,7 +237,7 @@ h4 {
     font-size: 20px;
     font-weight: 700;
     color: var(--clr-primary-200);
-    border-radius: 15px;
+    border-radius: 5px;
     border: 3px solid var(--clr-neutral-300);
     margin-top: 10px;
     background-color: var(--clr-neutral-300);
@@ -260,13 +263,13 @@ h4 {
     margin-top: 20px;
 }
 
-.youtube {
+/*.youtube {
     max-width: 700px;
     width: 100%;
     max-height: 400px;
     height: 100%;
     margin-bottom: 250px;
-}
+}*/
 
 .cssanimationbilleder {
     display: flex;
@@ -280,7 +283,7 @@ h4 {
     width: 165px;
     max-width: 100%;
     border-radius: 15px;
-    border: 5px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
     margin-bottom: 10px;
 }
 
@@ -288,7 +291,7 @@ h4 {
     width: 370px;
     max-width: 100%;
     border-radius: 15px;
-    border: 5px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
     margin-bottom: 10px;
 }
 
@@ -296,7 +299,7 @@ h4 {
     width: 330px;
     max-width: 100%;
     border-radius: 15px;
-    border: 5px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
     margin-bottom: 10px;
 }
 
@@ -304,7 +307,7 @@ h4 {
     width: 180px;
     max-width: 100%;
     border-radius: 15px;
-    border: 5px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
 }
 
 .illustration2 {
@@ -312,7 +315,7 @@ h4 {
     width: 500px;
     max-width: 100%;
     border-radius: 15px;
-    border: 5px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
 }
 
 .cssanimationlogo {
@@ -320,14 +323,35 @@ h4 {
     max-width: 100%;
     margin-bottom: 20px;
     border-radius: 15px;
-    border: 5px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
 }
 
 .cssanimationsprite {
     width: 1000px;
     max-width: 100%;
     border-radius: 10px;
-    border: 5px solid var(--clr-neutral-300);
+    border: 4px solid var(--clr-neutral-300);
+    margin-bottom: 20px;
+}
+
+.cssanimationknap {
+    height: 30px;
+    width: 250px;
+    margin: auto;
+    background-color: var(--clr-neutral-300);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid var(--clr-neutral-300);
+}
+
+.cssanimationknaptekst {
+    color: var(--clr-primary-200)
+}
+
+.cssanimationknap:hover {
+    border: 3px solid var(--clr-neutral-900);
 }
 /* Portfolio eksempler slut */
 
