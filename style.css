@@ -263,13 +263,11 @@ h4 {
     margin-top: 20px;
 }
 
-/*.youtube {
+.youtube {
     max-width: 700px;
     width: 100%;
-    max-height: 400px;
-    height: 100%;
-    margin-bottom: 250px;
-}*/
+    height: 400px;
+}
 
 .cssanimationbilleder {
     display: flex;
